@@ -16,7 +16,7 @@ info : this course requires a basic understanding of Command Line Interface usin
 # Passive information gathering
 In this section we will learn about different methods that we can use to gather useful information about our target. This is the first step and it is very important because without this kind of informations we could not proceed for the penetration testing. This is called passive because we will just look for legal informations that we can find in the internet without compromising the target system. 
 
-For all the commands enumerate here you can use **whatis** for a better understanding. 
+For all the commands enumerate here you can use **whatis** or by using the **man** command for a better understanding. 
 
 ### Gather basic informations of a specific website
 This two commands give us information about ip addresses and dns information
@@ -28,14 +28,14 @@ or
 whois yourwebsite.org
 ```
 ### informations about infrastructures
-the website [netcraft.com](https://netcraft.com) give us more information about domain names, domain ownership and the infrastructure structure
+the website [netcraft.com](https://netcraft.com) give us more informations about domain names, domain ownership and the infrastructure structure
 
 ### DNS reconnaissance
 This one gives us additional informations about name servers and all other useful information about the dns protocol
 ```
 dnsrecon -d yourwebsite.org
 ```
-We can also use the website dnsdumpster.com to get all the informations developped upstream and identify subdomains. 
+We can also use the website [dnsdumpster.com](https://dnsdumpster.com) to get all the informations developped upstream and identify subdomains. 
 
 ### Directory organization 
 robot.txt file shows restricted directory in a search engine
