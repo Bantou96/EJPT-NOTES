@@ -22,7 +22,9 @@ For all the commands enumerate here you can use **whatis** for a better understa
 This two commands give us information about ip addresses and dns information
 ```
 host yourwebsite.org
-
+```
+or 
+```
 whois yourwebsite.org
 ```
 ### informations about infrastructures
@@ -58,3 +60,27 @@ This one is called wafdetection and we will use the following command :
 wafw00f -a yourwebsite.org 
 ```
 we can use the option -l to list all waf supported by the command.
+```
+wafw00f -l
+```
+### Passive subdomain enumeration using **sublist3r**
+```
+sublist3r -d yourwebsite.org -e google, yahoo
+```
+### Google dorks search filter
+- site : yourwebsite.org or **.yourwebsite.org or gov.*
+- inurl : admin or auth_user_file.txt or passwd.txt
+- intitle: "index of" passwords
+- filetype: pdf, xlsx, docx, etc
+
+### Google Hacking Database
+exploit-db.com
+
+### Enumerating Email using The Harvester
+```
+theharvester -d yourwebsite.org -b google,linkedin
+```
+
+### Leaked passwords databases
+We will use the free website **haveibeenpwned**
+
