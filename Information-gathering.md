@@ -31,7 +31,7 @@ whois yourwebsite.org
 the website [netcraft.com](https://netcraft.com) give us more information about domain names, domain ownership and the infrastructure structure
 
 ### DNS reconnaissance
-This one gives us more informations about name servers and all other useful information about the dns protocol
+This one gives us additional informations about name servers and all other useful information about the dns protocol
 ```
 dnsrecon -d yourwebsite.org
 ```
