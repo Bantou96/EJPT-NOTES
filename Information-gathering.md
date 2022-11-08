@@ -53,4 +53,8 @@ To download an entire website we can use HTTrack :
 webhttrack yourwebsite.org
 ```
 ### Detect a web application filter 
-
+This one is called wafdetection and we will use the following command :
+```
+wafw00f -a yourwebsite.org 
+```
+we can use the option -l to list all waf supported by the command.
