@@ -28,7 +28,7 @@ or
 whois yourwebsite.org
 ```
 ### informations about infrastructures
-the website netcraft.com give us more information about domain names, domain ownership and the infrastructure structure
+the website [netcraft.com](https://netcraft.com) give us more information about domain names, domain ownership and the infrastructure structure
 
 ### DNS reconnaissance
 This one gives us more informations about name servers and all other useful information about the dns protocol
@@ -74,7 +74,7 @@ sublist3r -d yourwebsite.org -e google, yahoo
 - filetype: pdf, xlsx, docx, etc
 
 ### Google Hacking Database
-exploit-db.com
+[exploit-db.com](https://exploit-db.com)
 
 ### Enumerating Email using The Harvester
 ```
@@ -82,5 +82,5 @@ theharvester -d yourwebsite.org -b google,linkedin
 ```
 
 ### Leaked passwords databases
-We will use the free website **haveibeenpwned**
+We will use the free website[ haveibeenpwned](https://haveibeenpwned.com)
 
