@@ -3,7 +3,7 @@ The aim is to collect lots of but very useful informations about individual, com
 
 There are two types of information gathering : Passive & Active
 
-info : this course requires a basic understanding of Command Line Interface using linux operating systems. So you have to be familiar with linux commands and the distribution Kali-linux. 
+prerequisites: this course requires a basic understanding of Command Line Interface using linux operating systems. So you have to be familiar with linux commands and the distribution Kali-linux. 
 
 ### What are we looking for ?
 
