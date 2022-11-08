@@ -5,9 +5,10 @@ There are two types of information gathering : Passive & Active
 
 prerequisites: this course requires a basic understanding of Command Line Interface using linux operating systems. So you have to be familiar with linux commands and the distribution Kali-linux. 
 
-### What are we looking for ?
+### What are we looking for (non-exhaustive) ?
 
 - IP adresses
+- Domain name
 - Directories
 - Email and/or phone
 - physical adresses
