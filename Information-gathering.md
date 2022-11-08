@@ -1,4 +1,4 @@
-#Definition
+# Definition
 The aim is to collect lots of but very useful informations about individual, company, website...
 There are two types of information gathering : Passive & Active
 
@@ -9,5 +9,5 @@ Email and/or phone
 physical adresses
 web technologies used
 
-#Passive information gathering
+# Passive information gathering
 
